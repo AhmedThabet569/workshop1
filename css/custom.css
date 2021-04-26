@@ -1,0 +1,426 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.serices-details
+{
+    background: url('https://ecb-consulting.com/wp-content/uploads/2020/04/PROJECT-MANAGEMENT.png');
+    background-size: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 60px 0px
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-weight: 600;
+    font-family: inherit !important;
+}
+
+.project-cats 
+{
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url('/assets/img/background.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-cats ul 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-cats ul li 
+{
+    flex: 20%;
+    padding: 30px;
+    text-align: center
+}
+.project-cats ul li  p b{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+}
+.project-cats ul li a:hover{
+    text-decoration: unset;
+    color: #fff;
+}
+@media (min-width: 768px)
+{
+    section.project-cats {
+        padding: 2rem 0;
+    }
+}
+.welcome-to 
+{
+    background-color: #eee;
+    padding: 5rem 0;
+}
+#chartdiv {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .map-marker {
+      /* adjusting for the marker dimensions
+      so that it is centered on coordinates */
+      margin-left: -8px;
+      margin-top: -8px;
+      box-sizing: border-box;
+  }
+  .map-marker.map-clickable {
+      cursor: pointer;
+  }
+  .pulse {
+      width: 10px;
+      height: 10px;
+      border: 5px solid #f7f14c;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      background-color: #716f42;
+      z-index: 10;
+      position: absolute;
+      box-sizing: border-box;
+  }
+  .map-marker .dot {
+      border: 10px solid #fff601;
+      background: transparent;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      border-radius: 60px;
+      height: 50px;
+      width: 50px;
+      -webkit-animation: pulse 3s ease-out;
+      -moz-animation: pulse 3s ease-out;
+      animation: pulse 3s ease-out;
+      -webkit-animation-iteration-count: infinite;
+      -moz-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      z-index: 1;
+      opacity: 0;
+      box-sizing: border-box;
+  }
+  @-moz-keyframes pulse {
+     0% {
+        -moz-transform: scale(0);
+        opacity: 0.0;
+     }
+     25% {
+        -moz-transform: scale(0);
+        opacity: 0.1;
+     }
+     50% {
+        -moz-transform: scale(0.1);
+        opacity: 0.3;
+     }
+     75% {
+        -moz-transform: scale(0.5);
+        opacity: 0.5;
+     }
+     100% {
+        -moz-transform: scale(1);
+        opacity: 0.0;
+     }
+    }
+.find-offfice h3{
+    color:#005bad !important;
+}
+.find-offfice .latest-projects h3{
+    text-align: center;
+    background: #005bad !important;
+    color: #fff;
+}
+footer.footer 
+{
+    color: #fff;
+    background-color: #232323;
+    padding: 60px 0px;
+}
+footer.footer  img{
+    height: 100px;
+
+}
+.text-company  
+{
+    margin-left: 20px;
+}
+.clients 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.our-team.top-head .card-body, .card-body
+{
+    background: #005bad !important;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.nav.nav-tabs a.active {
+    color: #005bad;
+    border-color: #005bad;
+}
+.clients img{
+    margin: 20px;
+}
+section.our-team.top-head {
+    background: #EEE;
+}
+.tab-content 
+{
+    margin: 30px 0px;
+}
+.text-left h3{
+text-align: left;
+}
+.find-offfice .latest-projects h3 {
+    text-align: center;
+    background: #005bad !important;
+    color: #fff !important;
+    padding: 15px 0px;
+}
+.company-history h3,.our-vision h3,.core-values h3,h3{
+    text-align: center;
+   
+    color: #005bad !important;
+    padding: 15px 0px;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+}
+.carousel-indicators  li {
+      text-indent: 0;
+      margin: 0 2px;
+      width: 20px;
+      height: 20px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #fff;
+      background-color: #999;
+      transition: all 0.25s ease;
+}
+.carousel-indicators  li.active,.carousel-indicators  li :hover {
+  
+    background-color: #005bad;        
+  }
+  .our-vision {
+    background: url(/assets/img/visisonicon.png);
+    background-size: auto;
+    /* height: 17vh; */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.our-vision.our-mission {
+    background:linear-gradient(0deg, #ff07074d, rgba(255, 0, 150, 0.3)), url(/assets/img/visisonicon.png);
+    background-size: auto;
+    /* height: 17vh; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:#fff
+}
+.icon-box {
+    /* display: flex; */
+    background: #eee;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.icon-box .icon {
+    float: left;
+    width: 25%;
+}
+.icon-box .icon-text {
+    width: 70%;
+    float: right;
+    margin: 10px 0px;
+}
+.icon-box .icon-text p.strong-par {
+    font-size: 12px;
+    color: #005bad;
+    font-weight: bold;
+}
+.icon-box .icon-text p
+{
+    font-size: 10px;
+}
+.card-img-top 
+{
+    max-height:300px;
+}
+.nav.nav-tabs
+{
+    margin-top: 20px;
+    padding: 20px;
+    background: #ddd;
+}
+.nav.nav-tabs a{
+    color: #000;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    text-decoration: none;
+}
+.card-location 
+{
+    padding: 5px 6px;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    background: #005bad;
+}
+.project-details .box1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project-details .box1 .box-name
+{
+    flex: 20%;
+    padding: 20px;
+}
+.project-details .box1 .box-name span
+{
+font-weight: bold;
+}
+.project-details .box1 .box-value
+{
+    flex: 70%;
+    padding: 20px;
+}
+.project-details .box1 .box-value p 
+{
+    font-size: 10px;
+}
+.working-with,.working-with-form 
+{
+    background-image:url('/assets/img/BMC_BACKGROUND.jpg');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+.working-with
+{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/assets/img/BMC_BACKGROUND.jpg');
+}
+.carrers-form
+{
+    background: rgba(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 6px;
+}
+.btn.btn-primary
+{
+    
+}
+.header-down-arrow {
+    -webkit-animation: pulse 2s 3s ease-out infinite;
+    animation: pulse 2s 3s ease-out infinite;
+    position: absolute;
+    bottom: 4vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+.working-with .text
+{
+ max-width: 450px;
+}
+
+.header-down-arrow img {
+    animation: fade-slide-up 1s 1s ease-out forwards;
+    opacity: 0;
+  }
+  
+  /* Animations */
+  
+  @keyframes fade-slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-4rem);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes fade-slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(4rem);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes pop-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-4rem) scale(.8);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 1;
+      transform: none;
+    }
+    50% {
+      opacity: .8;
+      transform: scale(.8);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+  
+  .icon-box-withnobg 
+  {
+      display: flex;
+      background: transparent;
+      margin-bottom: 20px;
+  }
+  .icon-box-withnobg  .icon 
+  {
+    background: #2e76ba;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 21px;
+    padding: 5px;
+  }
+  .icon-text {
+    margin: 5px 15px;
+    padding: 4px;
+}
+.gray-bg 
+{
+    background: #eee;
+}
+.working-dark 
+{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/assets/img/work-dark.png');
+    /* background: url("/assets/images/") */
+    color :#fff;
+}
